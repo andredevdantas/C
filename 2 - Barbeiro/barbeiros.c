@@ -4,7 +4,6 @@
 #include <semaphore.h>
 #include <time.h>
 
-
 int n_cadeiras;
 int n_clientes;
 int n_barbeiros;
@@ -61,7 +60,6 @@ void *cliente(void *arg) {
     return NULL;
 }
 
-
 int sts_barbeiro(){
 	
 	if(n_clientes_atend <= 0){
@@ -80,7 +78,6 @@ int sts_barbeiro(){
 	return 0;
 	
 }
-
 
 int main() {
 	
