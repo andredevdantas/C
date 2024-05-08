@@ -1,0 +1,7 @@
+2 programas cliente/servidor para mandar dados de um computador a outro na mesma rede.
+
+Instruções no Dev C++
+
+Tools > Compiler Options > General (ativa a caixinha e coloca o codigo dentro dela) -lws2_32 e salva.
+
+
